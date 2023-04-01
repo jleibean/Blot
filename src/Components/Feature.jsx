@@ -27,8 +27,8 @@ function Feature() {
                     <img src={feature1} alt="featured painting 1" height="450px" />
                   </center>
                   <div class="carousel-caption">
-                    <h3>Night at the Park</h3>
-                    <p> Oil on Canvas</p>
+                    <h4>Night at the Park</h4>
+                    <h5> Oil on Canvas</h5>
                   </div>
                 </div>
 
@@ -37,8 +37,8 @@ function Feature() {
                     <img src={feature2} alt="featured painting 2" height="450px" />
                   </center>
                   <div class="carousel-caption">
-                    <h3>Riverside</h3>
-                    <p> Oil on canvas </p>
+                    <h4>Riverside</h4>
+                    <h5> Oil on canvas </h5>
                   </div>
                 </div>
 
@@ -47,8 +47,8 @@ function Feature() {
                     <img src={feature3} alt="featured painting 3" height="450px" />
                   </center>
                   <div class="carousel-caption">
-                    <h3>Downtown</h3>
-                    <p> Oil on wood </p>
+                    <h4>Downtown</h4>
+                    <h5> Oil on wood </h5>
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@ function Feature() {
         {/* <!-- END OF CAROUSEL -->  */}
         <div id="featuredinfo">
           <h3 class="shadow"> Our Featured Artist this week is:</h3>
-          <p>John Jones</p>
+          <h2>John Jones</h2>
           <br />
           <p>
             John Jones is an artist living in Baltimore, Md.
@@ -92,8 +92,8 @@ function Feature() {
             education at Maryland Institute College of Art.
           </p>
           <center>
-            <button class="button button2" onclick="loadArtist()">
-              See more on artist here
+            <button class="customBtn btn btn-lg" onclick="loadArtist()">
+              Check out their work
             </button>
           </center>
         </div>

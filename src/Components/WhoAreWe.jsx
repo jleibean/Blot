@@ -10,7 +10,7 @@ function WhoAreWe() {
 			</p>
 			<br/>
 			<br/>
-			<center><button class="button button2" onclick="loadPage()">Learn More</button></center>
+			<center><button class="btn btn-rounded secondaryBtn" onclick="loadPage()">Meet the Team</button></center>
 			{/* <script language="javascript" type="text/javascript">
 					function loadPage() 
 					{

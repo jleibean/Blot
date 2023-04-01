@@ -1,151 +1,133 @@
- body {
-    margin: 0;
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif; */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #282c34;
-  }
-  
-/*  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-  
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+}
 
-.App {
-    text-align: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  } */
+/* Custom */
+.customBtn{
+  padding: 2%;
+  border-radius: 15px;
+  background-color: #23424C;
+  color: white;
+  box-shadow: 8px 5px 5px #282c34;
+  margin-top: 2%;
+}
+.secondaryBtn{
+  padding: 2%;
+  border-radius: 15px;
+  background-color: #23424C;
+  color: white;
+  box-shadow: 5px 2px 2px #282c34;
+  margin: 1% 0 0 1%;
+}
+.customBtn:hover{
+  border: 2px solid #56AEC2;
+}
+.secondaryBtn:hover{
+  border: 2px solid #435A68;
+}
 
-
-  /* Custom */
-
-  header{
-	font-family: 'Poiret One', cursive;
-	color:white;
-	background-color: #23424C;
-	padding-top: 10px;
-    min-height: 18vh;
+header{
+font-family: 'Poiret One', cursive;
+color:white;
+background-color: #23424C;
+padding-top: 10px;
+  min-height: 18vh;
 }
 
 .headingText{
-    width: 88%;
+  width: 88%;
 }
 
 .mainHeading{
-    display: flex;
+  display: flex;
 }
 
 header img {
-	height: 10%;
-	width: 10%;
-	float: left;
+height: 10%;
+width: 10%;
+float: left;
 }
 
 .mainHeading a{
-	color:white;
-    /* font-size: .75em; */
+color:white;
+  /* font-size: .75em; */
 }
 
 .loginButton{
-    margin-right: 2%;
+  margin-right: 2%;
 }
 
 nav {
-	text-align: center;
-	font-size: 18pt;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	padding: 2px;
-	font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+font-size: 18pt;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+padding: 2px;
+font-family: 'Open Sans Condensed', sans-serif;
 }
 nav a:link{
-	padding: 10px;
-	color: white;
+padding: 10px;
+color: white;
 }
 nav a:hover {
-  color: #33cccc
-	/* text-shadow: 1px 2px #33cccc; */
+color: #33cccc
+/* text-shadow: 1px 2px #33cccc; */
 }
 nav a:visited {
-	color: white;
+color: white;
 }
 
 /*featured section*/
 #featured {
-	background-color: #435A68;
-	overflow:hidden;
-	color: white;
-	text-shadow: 2px 2px black;
-	font-size: 150%;
-	text-align: center;
-	font-family: 'Open Sans Condensed', sans-serif;
-    display: flex;
-    height: 65vh;
+background-color: #435A68;
+overflow:hidden;
+color: white;
+text-shadow: 2px 2px black;
+font-size: 150%;
+text-align: center;
+font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  height: 65vh;
 }
 
 #featured h3 {
-	font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #featuredinfo{
-    padding: 3% 3%;
+  padding: 3% 3%;
+}
+#featured #carousel{
+max-width: 44%;
+min-width: 44%;
+}
+#featured .carousel-caption{
+background: rgba(0, 0, 0, .5);
 }
 
 /* Who are We */
 
 #whoWeAre{
-	clear: both;
-	text-align: center;
-	padding: 20px;
-	color: white;
-	background-color: #56AEC2;
-	font-family: 'Open Sans Condensed', sans-serif;
+clear: both;
+text-align: center;
+padding: 20px;
+color: white;
+background-color: #56AEC2;
+font-family: 'Open Sans Condensed', sans-serif;
 }
 #whoWeAre p {
-	margin-left: 60px;
-	margin-right: 60px;
-	text-align: center;
-	font-size: 155%;
-	font-family: 'Open Sans Condensed', sans-serif;
+margin-left: 60px;
+margin-right: 60px;
+text-align: center;
+font-size: 155%;
+font-family: 'Open Sans Condensed', sans-serif;
 }
-
 
 /*Footer*/
 footer {
@@ -161,6 +143,9 @@ footer a:link{
 	padding: 10px;
 	margin-left: 30px;
 	color: white;
+}
+footer a:hover {
+  color: #33cccc;
 }
 footer a:visited {
 	color: white;
